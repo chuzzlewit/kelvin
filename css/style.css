@@ -214,25 +214,31 @@ body {
 	padding-top: 50px;
 	text-align: center;
 }
-
+canvas {display: block;
+z-index: -100;
+position: absolute;
+}
 #slide-1 {
+background: black;
+/* 
 	background-image: url('../images/bg1.jpg');
 	color: #ffffff;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
+	    -webkit-background-size: 100%;
+	    -moz-background-size: 100%;
+	    -o-background-size: 100%;
+	    background-size: 100%;
+	
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    width: 100%;
 	background-attachment: relative;
-	background-position: center center;
+	background-position: center center */;
 }
 
 #slide-1 h1 {
+	color:#ffffff;
 	padding-top: 130px;
 }
 
@@ -302,7 +308,8 @@ body {
 }
 
 #slide-2 {
-	background-color: #1abc9c;
+	/*background-color: #1abc9c;
+	*/
 	color: #e4e6e5;
 	padding-top: 90px;
 }
